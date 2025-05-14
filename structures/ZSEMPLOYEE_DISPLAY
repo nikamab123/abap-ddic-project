@@ -1,0 +1,21 @@
+# Structure: ZS_EMPLOYEE_DISPLAY
+
+## Description
+This structure is used for displaying employee details along with a calculated field for years of experience.
+
+## Fields
+
+| Field Name     | Data Element | Description               |
+|----------------|--------------|---------------------------|
+| EMP_ID         | ZDE_EID      | Employee ID               |
+| NAME           | ZDE_NAME     | Employee Name             |
+| DEPT           | ZDE_DEPT     | Department                |
+| DOJ            | ZDE_DOJ      | Date of Joining           |
+| YEARS_OF_EXP   | ZDE_YEXP     | Years of Experience       |
+
+## Use Case
+This structure is commonly used in:
+- ALV reports
+- Output views
+- Program calculations (YEARS_OF_EXP can be derived from DOJ)
+
