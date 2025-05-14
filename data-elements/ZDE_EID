@@ -1,0 +1,21 @@
+# Data Element: ZDE_EID
+
+## Description
+Data Element for Employee ID.
+
+## Properties
+- **Domain**: CHAR10 (Built-in)
+- **Data Type**: CHAR
+- **Length**: 10
+- **Output Length**: 10
+
+## Field Labels
+| Label Type     | Label         |
+|----------------|---------------|
+| Short          | Emp. ID       |
+| Medium         | Employee ID   |
+| Long           | Employee ID   |
+| Heading        | Emp. ID       |
+
+## Use Case
+Used as the key field in the `ZEMP` transparent table to uniquely identify each employee.
