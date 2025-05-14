@@ -1,0 +1,21 @@
+# Data Element: ZDE_DOJ
+
+## Description
+Data Element for Date of Joining.
+
+## Properties
+- **Domain**: DATS (Built-in)
+- **Data Type**: DATS
+- **Length**: 8
+- **Output Length**: 10
+
+## Field Labels
+| Label Type     | Label          |
+|----------------|----------------|
+| Short          | DOJ            |
+| Medium         | Join Date      |
+| Long           | Date of Joining|
+| Heading        | DOJ            |
+
+## Use Case
+Used in the `ZEMP` table to store the employee's joining date in the organization.
