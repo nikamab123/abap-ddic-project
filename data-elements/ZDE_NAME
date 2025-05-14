@@ -1,0 +1,21 @@
+# Data Element: ZDE_NAME
+
+## Description
+Data Element for Employee Name.
+
+## Properties
+- **Domain**: CHAR50 (Built-in)
+- **Data Type**: CHAR
+- **Length**: 50
+- **Output Length**: 50
+
+## Field Labels
+| Label Type     | Label          |
+|----------------|----------------|
+| Short          | Name           |
+| Medium         | Emp. Name      |
+| Long           | Employee Name  |
+| Heading        | Name           |
+
+## Use Case
+Used in the `ZEMP` table to store the full name of the employee.
