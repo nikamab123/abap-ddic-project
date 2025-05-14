@@ -1,0 +1,21 @@
+# Data Element: ZDE_DEPT
+
+## Description
+Data Element for Department.
+
+## Properties
+- **Domain**: ZDOMAIN_DEPT
+- **Data Type**: CHAR
+- **Length**: 4
+- **Output Length**: 4
+
+## Field Labels
+| Label Type     | Label       |
+|----------------|-------------|
+| Short          | Dept.       |
+| Medium         | Department  |
+| Long           | Department  |
+| Heading        | Dept.       |
+
+## Use Case
+Links to domain `ZDOMAIN_DEPT`, which contains fixed department values like IT, HR, FIN, MKT. Used in the `ZEMP` table.
